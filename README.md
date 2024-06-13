@@ -2,52 +2,52 @@
 A simple flutter application represtents tic tac toe game 
 
 ## Getting Started
-starting our game in main class , which is implemented in the <a href="https://github.com/Menna-Islam/Tic-Tac-Toe/blob/master/lib/main.dart">main.dart</a> file.
+The game starts in main class , which is implemented in the <a href="https://github.com/Menna-Islam/Tic-Tac-Toe/blob/master/lib/main.dart">main.dart</a> file.
 
-Our program starts with a starting screen asking the user to choose their preferred symbol to start with:
+Our program begins with a starting screen asking the user to choose their preferred symbol to start with:
 
 ![My_Image](Symbol.png)
 
 ## Lets play
-After choosing the symbol , we will start the game 
-for the sake of the game we will start with the X symbol and make it wins first two matches and then make the O symbol wins the third match 
+After choosing the symbol, we start the game. 
+For demonstration purposes, we'll start with the X symbol and show X winning the first two matches and O winning the third match.
 
-This is the first match:
+In the first match, X wins:
 
 ![My_Image](1st_match_x_winning.png)
 
-we have two options : 
-- Rematch : which will take us to new match with respect to previous scores 
-- Results : which will navigate us to the results page 
+We have two options:
+- Rematch: Starts a new match while keeping the previous scores.
+- Results: Navigates to the results page.
+Here , we will choose to rematch
 
-The second match:
+In the second match, X wins again:
 
 ![My_Image](2nd_match_x_winning.png)
 
 
-Then , third match:
+In the third match, O wins:
 
 ![My_Image](3rd_match_o_winning.png)
 
 
 ## Results
-if we want to see the results we can do it by pressing the results button 
-It will navigate us to the results screen 
+To view the results, press the results button, which navigates to the results screen.
 
-Here , we will see that player X score is 2 and player O score is 1 as we played 
+Here, we can see that player X's score is 2 and player O's score is 1:
 
 ![My_Image](scores.png)
 
 
 ### Reset
-we can go back to game panel or reset the scores 
+We can go back to the game panel or reset the scores.
 
-if we chose the reset button , the application will show us a dialog box making sure if we want to reset the game scores 
+If we choose the reset button, the application shows a dialog box to confirm if we want to reset the game scores:
 
 
 ![My_Image](reset.png)
 
-if we press reset , it will reset the scores to zero and you can play new game as shown
+If we press reset, it will reset the scores to zero, and we can start a new game:
 
 ![My_Image](reset_results.png)
 
