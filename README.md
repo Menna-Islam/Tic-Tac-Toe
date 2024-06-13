@@ -50,3 +50,14 @@ if we chose the reset button , the application will show us a dialog box making 
 if we press reset , it will reset the scores to zero and you can play new game as shown
 
 ![My_Image](reset_results.png)
+
+
+Thank you for your time :)
+
+
+## Team Members 
+
+- Menna Islam 
+- Mahmoud Shaaban 
+- Adham Mamdouh 
+- Ahmed Mohamed
